@@ -1,15 +1,15 @@
 {
-  "name": "arkpaperwallet",
-  "version": "2.0.0",
-  "description": "official paper wallet generator for Ark cryptocurrency.",
-  "homepage": "https://github.com/arkecosystem/paper-wallet",
-  "bugs": "https://github.com/arkecosystem/paper-wallet/issues",
+  "name": "mlc-paper",
+  "version": "0.0.1",
+  "description": "official paper wallet generator for MLC cryptocurrency.",
+  "homepage": "https://github.com/ockhamconsulting/mlc-paper",
+  "bugs": "https://github.com/ockhamconsulting/mlc-paper/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arkecosystem/paper-wallet"
+    "url": "https://github.com/ockhamconsulting/mlc-paper"
   },
   "dependencies": {
-    "arkjs": "git://github.com/ArkEcosystem/ark-js#master",
+    "mlcjs": "git://github.com/ockhamconsulting/mlc-js#master",
     "babel-cli": "^6.6.5",
     "babel-preset-es2015": "^6.6.0",
     "bip39": "^2.2.0",

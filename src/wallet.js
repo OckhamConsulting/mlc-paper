@@ -2,7 +2,7 @@
 import crypto from 'crypto'
 
 import bip39 from 'bip39'
-import arkjs from 'arkjs'
+import mlcjs from 'mlcjs'
 
 angular.module('wallet', [])
   .factory('wallet', () => {
@@ -13,8 +13,8 @@ angular.module('wallet', [])
           passphrase = bip39.generateMnemonic()
         }
 
-        let networks = arkjs.networks
-        let ecpair = arkjs.ECPair.fromSeed(passphrase, networks.ark)
+        let networks = mlcjs.networks
+        let ecpair = mlcjs.ECPair.fromSeed(passphrase, networks.mlc)
 
         let publicKey = ecpair.getPublicKeyBuffer().toString('hex')
         let address = ecpair.getAddress().toString('hex')

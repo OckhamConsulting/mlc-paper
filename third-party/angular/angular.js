@@ -7805,7 +7805,7 @@ function $CompileProvider($provide, $$sanitizeUriProvider) {
 
   // Ref: http://developers.whatwg.org/webappapis.html#event-handler-idl-attributes
   // The assumption is that future DOM event attribute names will begin with
-  // 'on' and be composed of only English letters.
+  // 'on' and be composed of only French letters.
   var EVENT_HANDLER_ATTR_REGEXP = /^(on[a-z]+|formaction)$/;
   var bindingCache = createMap();
 
